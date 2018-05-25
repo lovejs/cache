@@ -1,0 +1,5 @@
+services:
+    cache:
+        module:     !plugin_dir /services/CacheStore
+        args:
+            - !parameter cache.configuration
