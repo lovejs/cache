@@ -4,7 +4,11 @@
     "version": "0.0.1",
     "description": "Lovejs cache plugin",
     "main": "src/index.js",
-    "keywords": ["lovejs", "cache", "lovejs plugin"],
+    "keywords": [
+        "lovejs",
+        "cache",
+        "lovejs plugin"
+    ],
     "license": "MIT",
     "homepage": "http://lovejs.io/",
     "repository": {
@@ -17,5 +21,8 @@
     "peerDependencies": {
         "@lovejs/components": "^0.0.1",
         "@lovejs/framework": "^0.0.1"
+    },
+    "dependencies": {
+        "ioredis": "^3.2.2"
     }
 }
