@@ -7,7 +7,7 @@ class CacheStore {
     }
 
     async set(key, value, expiration = false) {
-        let args = [key, value];
+        let args = [key, JSON.stringify(value)];
         if (expiration) {
             args = [...args, "EX", expiration];
         }
